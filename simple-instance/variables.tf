@@ -1,6 +1,7 @@
 variable "apikey" {
   type        = string
   description = "This is the CloudAMQP APIKEY"
+  default = ""
 }
 variable "name" {
   type        = string
